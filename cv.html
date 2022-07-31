@@ -103,11 +103,23 @@
                         <br><br>
                         <input type="password" placeholder="Enter your password" minlength="8" maxlength="30" required/>
                         <br><br>
-                        How many hours would you be willing to work?
+                        <h4>Put your CV or resume here!</h4>
+                        <input type="file" accept="image/png, image/webp, image/jpg" />
+                        <br>
+                        <h4>What level of studies have you finished?</h4>
+                        <input type="radio" name="education" id="BSc" />
+                        <label for="BSc">BSc</label>
+                        <input type="radio" name="education" id="MSc" />
+                        <label for="">MSc</label>
+                        <input type="radio" name="education" id="Phd" />
+                        <label for="Phd">Phd</label>
                         <br><br>
-                        <input type="number" value="1" min="2" max="8" />
                     </fieldset>
-
+                    <h4>How many hours would you be willing to work?</h4>
+                    <input type="number" value="1" min="2" max="8" />
+                    <h4>Please select a prefered date of working:</h4>
+                    <input type="datetime-local" />
+                    <br><br>
                 </form>
 </body>
 </html>
